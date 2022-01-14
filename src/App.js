@@ -35,7 +35,7 @@ function App() {
  
             const clickIcone = ()=>{
                 const icon = document.querySelector('.icon')
-                const search = document.querySelector('.teste')
+                const search = document.querySelector('.search')
                 search.classList.toggle('active')
                 
                 
@@ -71,7 +71,7 @@ function App() {
 
           
           </div>
-          <div className='teste'>
+          <div className='search'>
 
 
             <form  onSubmit={submite}>

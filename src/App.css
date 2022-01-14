@@ -147,7 +147,7 @@ p{
 	position:relative;
 	top:1px;
 }
-.teste{
+.search{
     position: relative;
    color: red;
     width: 60px;
@@ -158,7 +158,7 @@ p{
     transition: 0.5s;
     box-shadow: 0 0 0 5px red;
 }
-.teste .icone{
+.search .icone{
     position: absolute;
     top: 0;
     left: 0;
@@ -172,7 +172,7 @@ p{
     z-index: 1000;
     cursor: pointer;
 }
-.teste .icone::before{
+.search .icone::before{
     content: "";
     position: absolute;
     width: 15px;
@@ -181,7 +181,7 @@ p{
     border-radius: 50%;
     transform: translate(-4px, -4px);
 }
-.teste .icone::after{
+.search .icone::after{
     content: "";
     position: absolute;
     width: 3px;
@@ -190,10 +190,10 @@ p{
     transform: translate(6px,6px) rotate(315deg);
     
 }
-.teste:hover{
+.search:hover{
     width: 325px;
 }
-.teste .input{
+.search .input{
     position: relative;
     width:100%;
     height: 60px;
@@ -202,7 +202,7 @@ p{
     justify-content: center;
     align-items: center;
 }
-.teste .input input{
+.search .input input{
     position: absolute;
     padding: 10px;
     top: 1;
@@ -221,10 +221,10 @@ p{
         top: 0;
         right: 0;
     }
-    .teste{
+    .search{
         left: 50px;
     }
-    .teste:hover{
+    .search:hover{
         width: 300px;
     }
     
